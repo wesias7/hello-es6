@@ -1,0 +1,26 @@
+{
+  "name": "hello-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "wesias7": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesias7/hello-es6.git"
+  },
+  "author": "wesias7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesias7/hello-es6/issues"
+  },
+  "homepage": "https://github.com/wesias7/hello-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}
