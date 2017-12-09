@@ -1,0 +1,10 @@
+body { padding:15px; margin:0px; background:#fafafa; }
+article.article { border:1px solid #ccc; padding:15px; background:white; font-size:11pt; margin-bottom:15px; }
+article.article > header { margin:0px -15px; padding:0px 15px; border-bottom:1px solid #ededed; }
+article.article > header > h1 { margin:0px -15px; margin-bottom:15px; padding:0px 15px; font-size:1.8em; line-height:1.8em; letter-spacing:-0.13em; }
+article.article > section { margin:0px -15px; padding:0px 15px; font-size:1em; line-height:1.8em; }
+article.article > section > h2 { margin:0px -15px; padding:0px 15px; font-size:1.4em; line-height:1.8em; letter-spacing:-0.13em; }
+article.article > section > p { margin:10px -15px; padding:0px 15px; font-size:1em; line-height:1.8em; letter-spacing:-0.13em; }
+article.article > footer { margin:0px -15px; padding:0px 15px; text-align:right; }
+article.article > footer small { color:#ccc; }
+article.article > footer small.pos::after { content:'xxx' }
